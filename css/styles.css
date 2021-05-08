@@ -1,0 +1,138 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #B72CDD;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2CDADD;
+    height: 70px;
+    align-items: center;
+}
+
+.header figure{
+    margin: 0 0 0 20px;
+    width: 120px;
+    height: 50px;
+}
+
+.header figure img{
+    width: inherit;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: inherit;
+}
+
+li{
+    height: inherit;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+a{
+    height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.main {
+    height: 300px;
+    background-image: url(/images/29166715-ordenador-portátil-tablet-smartphone-y-una-taza-de-café-con-los-documentos-financieros-de-mesa-de-madera.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #2CDADD;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    line-height: 150%;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: -0.2px;
+    margin-right: 500px;
+}
+
+.main span{
+    color: blue;
+}
+
+h2{
+    margin: 0 25px;
+    padding: 30px 0;
+    font-size:50px;
+    color: #FF1111;
+    font-weight: bold;
+}
+
+.project{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px;
+    margin: 0 25px;
+    background-color: #3DF424;
+}
+
+.project-left {
+    width: 500px;
+}
+
+.project-containerRight {
+    width: 500px;
+}
+
+.project-image{
+    width: 500px;
+}
+
+
+.footer{
+    background-color: #8675a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.footer-details{
+    display: flex;
+    align-items: center;
+}
+
+.footer-details img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
