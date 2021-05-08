@@ -119,12 +119,10 @@ h2{
 }
 
 
-.experiences{
-    
-}
 
 .experience{
     display: flex;
+    justify-content: center;
 }
 
 .footer{
