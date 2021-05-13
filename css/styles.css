@@ -126,6 +126,7 @@ h2{
 .experiences{
     padding: 0 30px;
     display: flex;
+    justify-content: space-around;
 }
 
 .experience{
@@ -136,6 +137,7 @@ h2{
     width: 480px; 
     overflow: hidden;
     flex-wrap: wrap;
+    
 }
 
 .experience-container-image{
@@ -151,6 +153,30 @@ h2{
     object-fit: cover;
 }
 
+.experience-down{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.experience-title{
+    margin: 0;
+}
+
+.experience-description{
+    text-align: left;
+}
+
+.experience-down input{
+    border: 1px solid #000fff;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;  
+}
 
 .footer{
     background-color: #8675a9;
