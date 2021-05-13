@@ -96,34 +96,60 @@ h2{
     font-weight: bold;
 }
 
+.projects{
+    display: flex;
+    padding: 0 30px;
+}
+
 .project{
     display: flex;
+    margin: 0 20px 40px o;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
-    padding: 30px;
-    margin: 0 25px;
     background-color: #3DF424;
-    align-items: center;
+    overflow: hidden;
 }
 
-.project-left {
-    width: 500px;
-}
-
-.project-containerRight {
-    width: 500px;
+.project-container-image{
+    margin: auto;
+    padding-right: 20px;
+    width: inherit;
+    height: inherit;
 }
 
 .project-image{
-    width: 500px;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
 }
 
-
+.experiences{
+    padding: 0 30px;
+    display: flex;
+}
 
 .experience{
-    border: 1px solid #000fff
+    border: 1px solid #000fff;
+    margin: 0px 20px 40px 0px;
+    border-radius: 10px;
+    background-color: gray;
+    width: 480px; 
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
+.experience-container-image{
+    margin: 0;
+    width: inherit;
+    height: 200px;
+    
+}
+
+.experience-image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
 
 
 .footer{
